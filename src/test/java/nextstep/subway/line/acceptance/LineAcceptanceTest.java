@@ -91,8 +91,11 @@ public class LineAcceptanceTest extends AcceptanceTest {
     void updateLine() {
         // giv
         String name = "신분당선";
+        String dummyData = "정요섭"
         ExtractableResponse<Response> createResponse = 지하철_노선_등록되어_있음(lineCreateParams);
-
+   
+        //안녕하세요
+            
         // when
         Map<String, String> params = new HashMap<>();
         params.put("name", "구분당선");
