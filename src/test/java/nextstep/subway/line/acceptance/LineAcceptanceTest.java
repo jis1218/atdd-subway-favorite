@@ -89,7 +89,7 @@ public class LineAcceptanceTest extends AcceptanceTest {
     @DisplayName("지하철 노선을 수정한다.")
     @Test
     void updateLine() {
-        // given
+        // giv
         String name = "신분당선";
         ExtractableResponse<Response> createResponse = 지하철_노선_등록되어_있음(lineCreateParams);
 
